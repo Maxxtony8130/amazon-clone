@@ -1,0 +1,25 @@
+.productItem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1500px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+.productitem__category > img{
+    object-fit: contain;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 23px;
+    transition: transform 450ms;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.productitem__category > img:hover{
+    transform: scale(1.2);
+}
+.productItem__image{
+    margin-bottom: 10px;
+}

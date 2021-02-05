@@ -1,0 +1,97 @@
+.fashion__part{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    min-height: 280px;
+    margin-top: 10px;
+}
+.fashion{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+.fashion__title{
+    padding: 10px;
+    margin-left: 10px;
+}
+.fashion__title > p{
+    font-size: 22px;
+    font-weight: 700;
+}
+ .fashion__image{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+.fashion__image1,.fashion__image2,.fashion__image3,.fashion__image4,.fashion__image5{
+    text-align: center;
+}
+.fashion__image1,.fashion__image2,.fashion__image3,.fashion__image4,.fashion__image5 > p{
+    font-weight: 700;
+    color: grey;
+    font-style:italic ;
+}
+.fashion__image1{
+    transition: transform 450ms;
+}
+.fashion__image1:hover{
+    transform: scale(1.1);
+}
+.fashion__image2{
+    transition: transform 450ms;
+}
+.fashion__image2:hover{
+    transform: scale(1.1);
+}
+.fashion__image3{
+    transition: transform 450ms;
+}
+.fashion__image3:hover{
+    transform: scale(1.1);
+}
+.fashion__image4{
+    transition: transform 450ms;
+}
+.fashion__image4:hover{
+    transform: scale(1.1);
+}
+.fashion__image5{
+    transition: transform 450ms;
+}
+.fashion__image5:hover{
+    transform: scale(1.1);
+}
+
+.fashion__image1 > img{
+    height: 230px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.fashion__image2 > img{
+    height: 230px;
+    margin-right: 25px;
+
+}
+.fashion__image3 > img{
+    height: 230px;
+    margin-right: 25px;
+
+}
+.fashion__image4 > img{
+    height: 230px;
+    margin-right: 25px;
+
+}
+.fashion__image5 > img{
+    height: 230px;
+    margin-right: 25px;
+}
+

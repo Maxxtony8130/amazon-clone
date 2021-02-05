@@ -1,0 +1,42 @@
+.FrigList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-right: 25px;
+}
+.FrigList__image > img{
+     margin-bottom: 50px;
+     object-fit: contain;
+     height: 300px;
+     width: 200px;
+}
+.FrigList__name > p{
+  font-size: 15px;
+  font-weight: 650;
+  max-width: 200px;
+  height: 100px;
+}
+.FrigList__brand{
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+    font-weight: 500;
+}
+.FrigList__price >p{
+    font-weight: 12px;
+    font-weight: 750;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.FrigList__rating{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.FrigList__add{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.headerBanner {
+  display: flex;
+  height: 40px;
+  background-color: #232f3e;
+  justify-content: space-between;
+  position: sticky !important;
+}
+.headerBanner__Option {
+  display: flex;
+  justify-content: space-between;
+}
+.headerBanner__Option > P {
+  margin-left: 20px;
+  font-size: 15px;
+  width: 100%;
+  word-wrap: normal;
+  margin-top: 8px;
+  cursor: pointer;
+  color: white;
+}
+.headerBanner__Option > P:hover {
+  color: grey;
+}
+.headerBanner__logo > img {
+  width: 100%;
+  min-width: 5px;
+  justify-content: center;
+  align-items: center;
+}

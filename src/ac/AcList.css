@@ -1,0 +1,39 @@
+.acList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-right: 25px;
+}
+.acList__image > img{
+     margin-bottom: 50px;
+}
+.acList__name > p{
+  font-size: 15px;
+  font-weight: 650;
+  max-width: 200px;
+  height: 100px;
+}
+.acList__brand{
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+    font-weight: 500;
+}
+.acList__price >p{
+    font-weight: 12px;
+    font-weight: 750;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.acList__rating{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.acList__add{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

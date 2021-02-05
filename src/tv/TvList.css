@@ -1,0 +1,39 @@
+.TvList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-right: 25px;
+}
+.TvList__image > img{
+     margin-bottom: 50px;
+}
+.TvList__name > p{
+  font-size: 15px;
+  font-weight: 650;
+  max-width: 200px;
+  height: 100px;
+}
+.TvList__brand{
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+    font-weight: 500;
+}
+.TvList__price >p{
+    font-weight: 12px;
+    font-weight: 750;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.TvList__rating{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.TvList__add{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

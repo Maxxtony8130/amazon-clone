@@ -1,0 +1,39 @@
+.productList__text{
+    display: flex;
+    flex-direction: row;
+   
+}
+.productList__text > h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.productList{
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    max-height: 480px;
+    width: 100%;
+    min-width: 400px !important;
+    background-color: white;
+    z-index: 1;
+
+}
+.productList__link{
+    font-size: 15px;
+    margin-top: 4px;
+    color: blue;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.productList__image{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.productList__image::-webkit-scrollbar{
+    display: none;
+}

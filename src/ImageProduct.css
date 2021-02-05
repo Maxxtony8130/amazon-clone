@@ -1,0 +1,17 @@
+.imageProduct{
+    margin-right:30px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+.imageProduct:hover{
+    transform: scale(1.1);
+}
+.imageProduct__price{
+    margin-left: 20px;  
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.imageProduct__image{
+    margin-top: 20px;
+}

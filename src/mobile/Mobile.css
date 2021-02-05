@@ -1,0 +1,38 @@
+.mobile{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 1700px;
+    margin-bottom: 25px;
+}
+.mobile__header{
+    justify-content: center;
+    align-items: center;
+}
+.mobile__header > img{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.mobile__slider{
+    max-width: 1300px;
+    margin-left:auto ;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.mobile__image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mobile__image > img{
+    height: 586px;
+}

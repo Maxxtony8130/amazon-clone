@@ -1,0 +1,24 @@
+.home__row{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* max-width: 1550px; */
+}
+.home__row > img {
+  max-width: 1300px;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    background-color: rgb(234, 237, 237);
+    margin-right: auto;
+    max-width: 1600px;
+}
